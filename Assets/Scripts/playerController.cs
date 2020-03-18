@@ -1,0 +1,65 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class playerController : MonoBehaviour
+{
+    public float moveSpeed = 5.0f;
+
+    public Transform camTransform;
+
+    private float currentSpeed = 0.0f;
+    private float speedSmoothVelocity = 0.0f;
+    private float speedSmoothTime = 0.1f;
+    private float rotationSpeed = 0.1f;
+    private float gravity = 3.0f;
+
+    private CharacterController controller;
+    private Animator animator;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        Cursor.lockState = CursorLockMode.Locked;
+
+        controller = GetComponent<CharacterController>();
+        animator = GetComponent<Animator>();
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        PlayerMovement();
+    }
+
+    void PlayerMovement()
+    {
+        Vector2 movementInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+
+        Vector3 forward = camTransform.forward;
+        Vector3 right = camTransform.right;
+
+        forward.Normalize();
+        right.Normalize();
+
+        Vector3 desiredMoveDirection = (forward * movementInput.y + right * movementInput.x).normalized;
+        Vector3 gravityVector = Vector3.zero;
+       
+        if (!controller.isGrounded)
+        {
+            gravityVector.y -= gravity;
+        }
+
+        if (desiredMoveDirection != Vector3.zero)
+        {
+            transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(desiredMoveDirection), rotationSpeed);
+        }
+
+        float targetSpeed = moveSpeed * movementInput.magnitude;
+        currentSpeed = Mathf.SmoothDamp(currentSpeed, targetSpeed, ref speedSmoothVelocity, speedSmoothTime);
+
+        controller.Move(desiredMoveDirection * currentSpeed * Time.deltaTime);
+
+        controller.Move(gravityVector * Time.deltaTime);
+    }
+}
