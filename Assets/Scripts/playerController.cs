@@ -14,7 +14,9 @@ public class playerController : MonoBehaviour
     private float rotationSpeed = 0.1f;
     private float gravity = 3.0f;
 
-    private CharacterController controller;
+	private CharacterController m_controller;
+    public CharacterController controller { get { if (!m_controller) { m_controller = GetComponent<CharacterController>(); } return m_controller; } }
+
     private Animator animator;
 
     // Start is called before the first frame update
@@ -22,7 +24,6 @@ public class playerController : MonoBehaviour
     {
         Cursor.lockState = CursorLockMode.Locked;
 
-        controller = GetComponent<CharacterController>();
         animator = GetComponent<Animator>();
     }
 
