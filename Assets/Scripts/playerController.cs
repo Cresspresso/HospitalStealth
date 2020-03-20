@@ -14,7 +14,9 @@ public class playerController : MonoBehaviour
     private float rotationSpeed = 0.1f;
     private float gravity = 3.0f;
 
-    private CharacterController controller;
+	private CharacterController m_controller;
+    public CharacterController controller { get { if (!m_controller) { m_controller = GetComponent<CharacterController>(); } return m_controller; } }
+
     private Animator animator;
 
     // Start is called before the first frame update
@@ -22,7 +24,6 @@ public class playerController : MonoBehaviour
     {
         Cursor.lockState = CursorLockMode.Locked;
 
-        controller = GetComponent<CharacterController>();
         animator = GetComponent<Animator>();
     }
 
@@ -34,13 +35,18 @@ public class playerController : MonoBehaviour
 
     void PlayerMovement()
     {
+        //stores if and what wasd is pressed
         Vector2 movementInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
 
+        //stores the forward vector of the cameras transform
         Vector3 forward = camTransform.forward;
+        //stores the right vector of the cameras transform
         Vector3 right = camTransform.right;
 
         forward.Normalize();
         right.Normalize();
+
+        Debug.Log(movementInput.x + " " + movementInput.y);
 
         Vector3 desiredMoveDirection = (forward * movementInput.y + right * movementInput.x).normalized;
         Vector3 gravityVector = Vector3.zero;
@@ -53,6 +59,7 @@ public class playerController : MonoBehaviour
         if (desiredMoveDirection != Vector3.zero)
         {
             transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(desiredMoveDirection), rotationSpeed);
+            //transform.rotation = Quaternion.LookRotation(desiredMoveDirection);
         }
 
         float targetSpeed = moveSpeed * movementInput.magnitude;
