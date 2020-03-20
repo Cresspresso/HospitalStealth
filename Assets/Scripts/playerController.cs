@@ -34,15 +34,20 @@ public class playerController : MonoBehaviour
 
     void PlayerMovement()
     {
+        //stores if and what wasd is pressed
         Vector2 movementInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
 
+        //stores the forward vector of the cameras transform
         Vector3 forward = camTransform.forward;
+        //stores the right vector of the cameras transform
         Vector3 right = camTransform.right;
 
         forward.Normalize();
         right.Normalize();
 
-        Vector3 desiredMoveDirection = (forward * movementInput.y + right * movementInput.x).normalized;
+        Debug.Log(movementInput.x + " " + movementInput.y);
+
+        Vector3 desiredMoveDirection = (forward * movementInput.y + right * movementInput.x);
         Vector3 gravityVector = Vector3.zero;
        
         if (!controller.isGrounded)
@@ -53,6 +58,7 @@ public class playerController : MonoBehaviour
         if (desiredMoveDirection != Vector3.zero)
         {
             transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(desiredMoveDirection), rotationSpeed);
+            //transform.rotation = Quaternion.LookRotation(desiredMoveDirection);
         }
 
         float targetSpeed = moveSpeed * movementInput.magnitude;
