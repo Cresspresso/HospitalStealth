@@ -48,7 +48,7 @@ public class playerController : MonoBehaviour
 
         Debug.Log(movementInput.x + " " + movementInput.y);
 
-        Vector3 desiredMoveDirection = (forward * movementInput.y + right * movementInput.x);
+        Vector3 desiredMoveDirection = (forward * movementInput.y + right * movementInput.x).normalized;
         Vector3 gravityVector = Vector3.zero;
        
         if (!controller.isGrounded)
