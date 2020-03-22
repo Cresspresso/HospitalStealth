@@ -4,6 +4,7 @@ using UnityEngine;
 
 /// <summary>
 /// Detects and attacks a player.
+/// DEPRECATED
 /// </summary>
 /// <author>Elijah Shadbolt</author>
 public class GuardAttack : MonoBehaviour
@@ -47,39 +48,55 @@ public class GuardAttack : MonoBehaviour
 		float a = Vector3.Angle(vecToPlayer, transform.forward);
 		if (sqrRange < maxRange * maxRange && a < 30.0f)
 		{
-			state = StateType.Pursuing;
-			// detected a target.
-			patrol.enabled = false;
-			patrol.agent.destination = targetPlayer.transform.position;
-
-			/// <author>Elijah Shadbolt</author>
-			/// 
-			float minRange = 1.2f;
-			if (sqrRange < minRange * minRange)
+			if (state == StateType.Patrolling)
 			{
-				targetPlayer.isInputEnabled = false;
-
-				this.enabled = false;
+				StartCoroutine(AlertedCo());
+			}
+			else
+			{
+				state = StateType.Pursuing;
+				// detected a target.
 				patrol.enabled = false;
-				patrol.agent.enabled = false;
+				patrol.agent.destination = targetPlayer.transform.position;
 
-				var c = FindObjectOfType<Caught>();
-				if (c)
+				/// <author>Elijah Shadbolt</author>
+				/// 
+				float minRange = 1.2f;
+				if (sqrRange < minRange * minRange)
 				{
-					c.Show();
+					targetPlayer.isInputEnabled = false;
+
+					this.enabled = false;
+					patrol.enabled = false;
+					patrol.agent.enabled = false;
+
+					var c = FindObjectOfType<Caught>();
+					if (c)
+					{
+						c.Show();
+					}
 				}
 			}
 		}
 		else
 		{
-			state = StateType.Patrolling;
-			patrol.enabled = true;
+			if (state == StateType.Pursuing)
+			{
+				StartCoroutine(ConfusedCo());
+			}
+			else
+			{
+				state = StateType.Patrolling;
+				patrol.enabled = true;
+			}
 		}
 	}
 
 	private IEnumerator AlertedCo()
 	{
 		state = StateType.Alerted;
+		patrol.enabled = false;
+		patrol.agent.destination = patrol.agent.transform.position;
 		yield return new WaitForSeconds(duration);
 		state = StateType.Pursuing;
 	}
@@ -87,6 +104,8 @@ public class GuardAttack : MonoBehaviour
 	private IEnumerator ConfusedCo()
 	{
 		state = StateType.Confused;
+		patrol.enabled = false;
+		patrol.agent.destination = patrol.agent.transform.position;
 		yield return new WaitForSeconds(duration);
 		state = StateType.Patrolling;
 	}

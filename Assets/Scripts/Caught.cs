@@ -9,6 +9,7 @@ using UnityEngine.SceneManagement;
 public class Caught : MonoBehaviour
 {
 	public GameObject visuals;
+	public bool hasTriggered { get; private set; } = false;
 
 	private void Awake()
 	{
@@ -17,6 +18,8 @@ public class Caught : MonoBehaviour
 
 	public void Show()
 	{
+		if (hasTriggered) { return; }
+		hasTriggered = true;
 		visuals.SetActive(true);
 		StartCoroutine(RestartCo());
 	}
