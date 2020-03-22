@@ -17,6 +17,8 @@ public class playerController : MonoBehaviour
 	private CharacterController m_controller;
     public CharacterController controller { get { if (!m_controller) { m_controller = GetComponent<CharacterController>(); } return m_controller; } }
 
+    public bool isInputEnabled = true;
+
     private Animator animator;
 
     // Start is called before the first frame update
@@ -30,7 +32,10 @@ public class playerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        PlayerMovement();
+        if (isInputEnabled)
+        {
+            PlayerMovement();
+        }
     }
 
     void PlayerMovement()
