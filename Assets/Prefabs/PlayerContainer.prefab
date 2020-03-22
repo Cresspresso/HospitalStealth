@@ -247,7 +247,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7787891263411389884}
-  m_LocalRotation: {x: 6.9824715e-11, y: 0.017453384, z: 0.0000000040000305, w: 0.9998477}
+  m_LocalRotation: {x: 6.98247e-11, y: 0.017453384, z: 0.0000000040000305, w: 0.9998477}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -725,6 +725,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   camTransform: {fileID: 853821973}
+  isInputEnabled: 1
 --- !u!1 &7787891264576426049
 GameObject:
   m_ObjectHideFlags: 0

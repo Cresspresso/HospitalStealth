@@ -16,8 +16,29 @@ public class GuardAttack : MonoBehaviour
 	private PatrolGuard m_patrol;
 	public PatrolGuard patrol { get { if (!m_patrol) { m_patrol = GetComponent<PatrolGuard>(); } return m_patrol; } }
 
+	public enum StateType
+	{
+		Patrolling,
+		Alerted,
+		Pursuing,
+		Confused,
+	}
+	public StateType state { get; private set; }
+	private float duration = 2.0f;
+
+	private void Awake()
+	{
+		state = StateType.Patrolling;
+	}
+
 	private void Update()
 	{
+		if (state == StateType.Confused
+			|| state == StateType.Alerted)
+		{
+			return;
+		}
+
 		/// <author>Elijah Shadbolt</author>
 		/// 
 		Vector3 vecToPlayer = targetPlayer.transform.position - transform.position;
@@ -26,6 +47,7 @@ public class GuardAttack : MonoBehaviour
 		float a = Vector3.Angle(vecToPlayer, transform.forward);
 		if (sqrRange < maxRange * maxRange && a < 30.0f)
 		{
+			state = StateType.Pursuing;
 			// detected a target.
 			patrol.enabled = false;
 			patrol.agent.destination = targetPlayer.transform.position;
@@ -50,7 +72,22 @@ public class GuardAttack : MonoBehaviour
 		}
 		else
 		{
+			state = StateType.Patrolling;
 			patrol.enabled = true;
 		}
+	}
+
+	private IEnumerator AlertedCo()
+	{
+		state = StateType.Alerted;
+		yield return new WaitForSeconds(duration);
+		state = StateType.Pursuing;
+	}
+
+	private IEnumerator ConfusedCo()
+	{
+		state = StateType.Confused;
+		yield return new WaitForSeconds(duration);
+		state = StateType.Patrolling;
 	}
 }
