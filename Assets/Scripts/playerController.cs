@@ -56,9 +56,14 @@ public class playerController : MonoBehaviour
             gravityVector.y -= gravity;
         }
 
-        if (desiredMoveDirection != Vector3.zero)
+        Vector3 desiredForwards = Vector3.ProjectOnPlane(desiredMoveDirection, Vector3.up);
+        if (desiredForwards == Vector3.zero)
         {
-            transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(desiredMoveDirection), rotationSpeed);
+            desiredForwards = Vector3.ProjectOnPlane(transform.forward, Vector3.up);
+        }
+        if (desiredForwards != Vector3.zero)
+        {
+            transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(desiredForwards), rotationSpeed);
             //transform.rotation = Quaternion.LookRotation(desiredMoveDirection);
         }
 
