@@ -12,7 +12,11 @@ public class PatrolGuard : MonoBehaviour
 
 	/// <author>Elijah Shadbolt</author>
 	public Transform feetLocation;
-	public PatrolRoute route;
+
+	[SerializeField]
+	private PatrolRoute m_route;
+	public PatrolRoute route { get { if (!m_route) { m_route = GetComponentInParent<PatrolRoute>(); } return m_route; } }
+
 	private int currentRoutePointIndex = 0;
 
 	/// <author>Elijah Shadbolt</author>
