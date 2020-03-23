@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Insomnia.unity
+    guid: 96abc23e849916d499b5e3d14248a3fc
+  - enabled: 1
     path: Assets/Scenes/Jordyn.unity
     guid: 912ef64e1f18f5e4d829d216f304188b
   m_configObjects: {}
