@@ -1,44 +1,9 @@
 fileFormatVersion: 2
-guid: 0f602e504b3dbff4e9e3ea93bf8c3c8f
+guid: 18f0d3eb302ea5b478250ad9c0600090
 ModelImporter:
   serializedVersion: 19300
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Buttons
-    second: {fileID: 2100000, guid: 9ed73369046cd614fa9a860f1a03b44e, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Computer_Casing
-    second: {fileID: 2100000, guid: d934c19bef3e65d408be52371336f357, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Computer_Screen
-    second: {fileID: 2100000, guid: b4c7689caf65f874496c1bd7370e1329, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Metal_poles
-    second: {fileID: 2100000, guid: fa7df2a4423c95542b0459632e2a0fb6, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Plastic
-    second: {fileID: 2100000, guid: b4c7689caf65f874496c1bd7370e1329, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Plastic_Wheels
-    second: {fileID: 2100000, guid: 9ed73369046cd614fa9a860f1a03b44e, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Wiring
-    second: {fileID: 2100000, guid: 9ed73369046cd614fa9a860f1a03b44e, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 1
     materialName: 0

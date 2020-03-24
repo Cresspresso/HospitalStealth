@@ -3,7 +3,17 @@ guid: 74a39488fb1076646b73ec23b256ffa6
 ModelImporter:
   serializedVersion: 19300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Exit
+    second: {fileID: 2100000, guid: 8fd09e85816a44449aecf84b6bfca8b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pasted__Wall
+    second: {fileID: 2100000, guid: fa7df2a4423c95542b0459632e2a0fb6, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0

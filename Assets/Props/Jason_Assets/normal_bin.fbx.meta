@@ -3,7 +3,17 @@ guid: a0a05f4396b3ec545b505bf9b0d6df61
 ModelImporter:
   serializedVersion: 19300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal
+    second: {fileID: 2100000, guid: fa7df2a4423c95542b0459632e2a0fb6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plastic_Covering
+    second: {fileID: 2100000, guid: 9ed73369046cd614fa9a860f1a03b44e, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0

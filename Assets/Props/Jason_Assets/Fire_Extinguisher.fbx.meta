@@ -3,7 +3,32 @@ guid: c0fa9f5490452b24f9375b7a56f261ba
 ModelImporter:
   serializedVersion: 19300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fire_Extinguisher_metal
+    second: {fileID: 2100000, guid: 3cd26adccad6c7641931c7fd68730250, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal_poles
+    second: {fileID: 2100000, guid: fa7df2a4423c95542b0459632e2a0fb6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plastic
+    second: {fileID: 2100000, guid: 9ed73369046cd614fa9a860f1a03b44e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plastic_Covering
+    second: {fileID: 2100000, guid: 9ed73369046cd614fa9a860f1a03b44e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wiring
+    second: {fileID: 2100000, guid: 0858e1a76bdba7e4e94fb0159d1c79de, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
