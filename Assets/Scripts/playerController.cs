@@ -17,6 +17,8 @@ public class playerController : MonoBehaviour
 	private CharacterController m_controller;
     public CharacterController controller { get { if (!m_controller) { m_controller = GetComponent<CharacterController>(); } return m_controller; } }
 
+    public bool isInputEnabled = true;
+
     private Animator animator;
 
     // Start is called before the first frame update
@@ -30,7 +32,10 @@ public class playerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        PlayerMovement();
+        if (isInputEnabled)
+        {
+            PlayerMovement();
+        }
     }
 
     void PlayerMovement()
@@ -56,9 +61,14 @@ public class playerController : MonoBehaviour
             gravityVector.y -= gravity;
         }
 
-        if (desiredMoveDirection != Vector3.zero)
+        Vector3 desiredForwards = Vector3.ProjectOnPlane(desiredMoveDirection, Vector3.up);
+        if (desiredForwards == Vector3.zero)
         {
-            transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(desiredMoveDirection), rotationSpeed);
+            desiredForwards = Vector3.ProjectOnPlane(transform.forward, Vector3.up);
+        }
+        if (desiredForwards != Vector3.zero)
+        {
+            transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(desiredForwards), rotationSpeed);
             //transform.rotation = Quaternion.LookRotation(desiredMoveDirection);
         }
 

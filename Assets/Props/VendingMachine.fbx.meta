@@ -7,6 +7,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Transparent
+    second: {fileID: 2100000, guid: 32850fd3dce3ac5488a25b6caf537f66, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: lambert1
     second: {fileID: 2100000, guid: e07da59b94d518b4eafbbc1408b69e27, type: 2}
   materials:
