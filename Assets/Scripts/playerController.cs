@@ -11,7 +11,7 @@ public class playerController : MonoBehaviour
     private float currentSpeed = 0.0f;
     private float speedSmoothVelocity = 0.0f;
     private float speedSmoothTime = 0.1f;
-    private float rotationSpeed = 0.1f;
+    public float rotationSpeed = 0.1f;
     private float gravity = 3.0f;
 
 	private CharacterController m_controller;
