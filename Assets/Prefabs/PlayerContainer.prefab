@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 853821971}
   - component: {fileID: 853821970}
   - component: {fileID: 853821974}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -27,8 +27,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 853821969}
-  m_LocalRotation: {x: -0.048128627, y: 0.017433122, z: 0.0008401338, w: 0.99868864}
-  m_LocalPosition: {x: -0.17450726, y: 4.252, z: -4.996954}
+  m_LocalRotation: {x: -0.022352967, y: 0.50287455, z: -0.012894829, w: -0.86397415}
+  m_LocalPosition: {x: -46.93402, y: 3.2966728, z: 0.16254711}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7787891264289611140}
@@ -59,7 +59,7 @@ Camera:
     height: 1
   near clip plane: 0.1
   far clip plane: 5000
-  field of view: 40
+  field of view: 50
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -233,7 +233,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7787891263411389882}
   - component: {fileID: 7787891263411389883}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: TopRig
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -316,7 +316,7 @@ GameObject:
   - component: {fileID: 7787891263730167421}
   - component: {fileID: 7787891263730167422}
   - component: {fileID: 7787891263730167423}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -440,7 +440,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7787891263739800596}
   - component: {fileID: 7787891263739800597}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: BottomRig
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -521,7 +521,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7787891264051423683}
   - component: {fileID: 7787891264051423684}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: MiddleRig
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -535,7 +535,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7787891264051423685}
-  m_LocalRotation: {x: -0.04812862, y: 0.017433133, z: 0.0008401051, w: 0.9986887}
+  m_LocalRotation: {x: -0.048128616, y: 0.017433167, z: 0.0008401067, w: 0.9986887}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -601,7 +601,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7787891264289611140}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PlayerContainer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -638,9 +638,9 @@ GameObject:
   - component: {fileID: 7787891264339126952}
   - component: {fileID: 7787891264339126953}
   - component: {fileID: 7787891264339126954}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -738,7 +738,7 @@ GameObject:
   - component: {fileID: 7787891264576426061}
   - component: {fileID: 7787891264576426062}
   - component: {fileID: 7787891264576426063}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -863,13 +863,13 @@ GameObject:
   - component: {fileID: 7787891264778025621}
   - component: {fileID: 7787891264778025622}
   - component: {fileID: 489101818620617698}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: CM_PlayerCam
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7787891264778025621
 Transform:
   m_ObjectHideFlags: 0
@@ -1037,7 +1037,7 @@ GameObject:
   - component: {fileID: 7787891265030476544}
   - component: {fileID: 7787891265030476545}
   - component: {fileID: 7787891265030476546}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: cm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1232,6 +1232,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Player_GrayBox
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 856e41a52b5bb9c47977f4f572ba7636,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 856e41a52b5bb9c47977f4f572ba7636, type: 3}
