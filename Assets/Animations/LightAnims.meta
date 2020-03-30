@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Animations/LightAnims.meta
 guid: ae82b5c94c209fd479a1197c22ed827f
+=======
+guid: af4e354ef5387a44991def54732e4572
+>>>>>>> master:Assets/Scripts/StaticCameras.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
