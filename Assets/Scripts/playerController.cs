@@ -6,7 +6,7 @@ public class playerController : MonoBehaviour
 {
     public float moveSpeed = 5.0f;
 
-    public Transform camTransform;
+	public Transform camTransform => Camera.main.transform;
 
     private float currentSpeed = 0.0f;
     private float speedSmoothVelocity = 0.0f;
