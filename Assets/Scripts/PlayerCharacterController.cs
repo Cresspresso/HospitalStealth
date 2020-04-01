@@ -32,7 +32,13 @@ public class PlayerCharacterController : MonoBehaviour
 	public float moveForwardSpeed = 3.0f;
 	public float moveBackwardSpeed = 3.0f;
 
+	/// <author>Lorenzo Zemp</summary>
+	private AudioSource audioSource;
 
+	private void Awake()
+	{
+		audioSource = GetComponent<AudioSource>();
+	}
 
 	private void FixedUpdate()
 	{
@@ -89,5 +95,13 @@ public class PlayerCharacterController : MonoBehaviour
 		/// <author>Elijah Shadbolt</author>
 		transform.rotation = rotation;
 		transform.Rotate(localAngularMotion, Space.Self);
+
+		/// <author>Lorenzo Zemp</author>
+		if (isTouchingGround && audioSource.isPlaying == false && cc.velocity.magnitude > 1.0f)
+		{
+			audioSource.volume = Random.Range(0.1f, 0.3f);
+			audioSource.pitch = Random.Range(0.7f, 0.9f);
+			audioSource.Play();
+		}
 	}
 }
