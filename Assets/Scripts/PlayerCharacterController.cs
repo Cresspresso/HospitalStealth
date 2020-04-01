@@ -32,6 +32,9 @@ public class PlayerCharacterController : MonoBehaviour
 	public float moveForwardSpeed = 3.0f;
 	public float moveBackwardSpeed = 3.0f;
 
+	public float currentAngularSpeed { get; private set; } = 0;
+	public float currentSpeed { get; private set; } = 0;
+
 
 
 	private void FixedUpdate()
@@ -53,6 +56,7 @@ public class PlayerCharacterController : MonoBehaviour
 		if (verticalAmount < 0) { angularSpeed = -angularSpeed; }
 		var localAngularVelocity = new Vector3(0, angularSpeed, 0);
 		var localAngularMotion = localAngularVelocity * dt;
+		this.currentAngularSpeed = angularSpeed;
 
 		// linear motion
 		/// <author>Elijah Shadbolt</author>
@@ -66,6 +70,7 @@ public class PlayerCharacterController : MonoBehaviour
 			: (verticalAmount < -small
 			? moveBackwardSpeed * verticalAmount
 			: 0.0f);
+		this.currentSpeed = verticalSpeed;
 		velocity += forward * verticalSpeed;
 
 		var motion = velocity * dt;
