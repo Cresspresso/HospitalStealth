@@ -31,11 +31,18 @@ public class PlayerCharacterController : MonoBehaviour
 	public float rotateSpeed = 100.0f;
 	public float moveForwardSpeed = 3.0f;
 	public float moveBackwardSpeed = 3.0f;
-
+	
 	public float currentAngularSpeed { get; private set; } = 0;
 	public float currentSpeed { get; private set; } = 0;
 
+	/// <author>Lorenzo Zemp</summary>
+	private AudioSource audioSource;
 
+
+	private void Awake()
+	{
+		audioSource = GetComponent<AudioSource>();
+	}
 
 	private void FixedUpdate()
 	{
@@ -94,5 +101,13 @@ public class PlayerCharacterController : MonoBehaviour
 		/// <author>Elijah Shadbolt</author>
 		transform.rotation = rotation;
 		transform.Rotate(localAngularMotion, Space.Self);
+
+		/// <author>Lorenzo Zemp</author>
+		if (isTouchingGround && audioSource.isPlaying == false && cc.velocity.magnitude > 0.5f)
+		{
+			audioSource.volume = Random.Range(0.09f, 0.2f);
+			audioSource.pitch = Random.Range(0.8f, 1.0f);
+			audioSource.Play();
+		}
 	}
 }
