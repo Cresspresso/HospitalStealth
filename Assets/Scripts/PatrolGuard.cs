@@ -18,12 +18,17 @@ public class PatrolGuard : MonoBehaviour
 	public PatrolRoute route { get { if (!m_route) { m_route = GetComponentInParent<PatrolRoute>(); } return m_route; } }
 
 	private int currentRoutePointIndex = 0;
+	private bool isWaiting = false;
+	public float arrivedDistance = 1.0f;
+
+	public NurseAnimController nurse;
 
 	/// <author>Elijah Shadbolt</author>
 	private void SetPointIndex(int i)
 	{
 		currentRoutePointIndex = i;
 		agent.destination = route.points[i].transform.position;
+		isWaiting = false;
 	}
 
 	/// <author>Elijah Shadbolt</author>
@@ -38,10 +43,45 @@ public class PatrolGuard : MonoBehaviour
 	/// <author>Elijah Shadbolt</author>
 	private void Update()
 	{
-		var range = 1.0f;
-		if (Vector3.Distance(agent.destination, feetLocation.position) < range)
+		if (nurse)
 		{
-			SetPointIndex((currentRoutePointIndex + 1) % route.points.Length);
+			if (nurse.isWalking)
+			{
+				if (agent.remainingDistance < 0.01f)
+				{
+					nurse.isWalking = false;
+				}
+			}
+			else
+			{
+				if (agent.remainingDistance > 0.01f)
+				{
+					nurse.isWalking = true;
+				}
+			}
 		}
+
+		if (isWaiting) { return; }
+		if (agent.remainingDistance <= arrivedDistance)
+		{
+			var waitTime = route.points[currentRoutePointIndex].waitTime;
+			var i = (currentRoutePointIndex + 1) % route.points.Length;
+			if (waitTime > 0.0f)
+			{
+				isWaiting = true;
+				StartCoroutine(WaitSet(waitTime, i));
+			}
+			else
+			{
+				SetPointIndex(i);
+			}
+		}
+	}
+	 
+	private IEnumerator WaitSet(float t, int i)
+	{
+		yield return new WaitUntil(() => agent.remainingDistance < 0.01f);
+		yield return new WaitForSeconds(t);
+		SetPointIndex(i);
 	}
 }
