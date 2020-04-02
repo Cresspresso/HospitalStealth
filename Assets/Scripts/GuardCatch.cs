@@ -16,7 +16,6 @@ public class GuardCatch : MonoBehaviour
 		if (player)
 		{
 			var d = Vector3.Distance(player.transform.position, transform.position);
-			print(d);
 			if (d < radius)
 			{
 				player.isInputEnabled = false;
