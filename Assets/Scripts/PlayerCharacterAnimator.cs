@@ -17,10 +17,8 @@ public class PlayerCharacterAnimator : MonoBehaviour
 	public PlayerCharacterController pcc { get { if (!m_pcc) { m_pcc = GetComponentInParent<PlayerCharacterController>(); } return m_pcc; } }
 
 
-	private void UpdateSpeed()
+	private void UpdateSpeed(float v, float h)
 	{
-		var v = Input.GetAxisRaw("Vertical");
-		var h = Input.GetAxisRaw("Horizontal");
 		var s = Mathf.Clamp(v + 0.3f * Mathf.Abs(h), -1, 1);
 		var a = pcc ? pcc.moveForwardSpeed : 1;
 		var b = pcc ? pcc.moveBackwardSpeed : 1;
@@ -32,25 +30,25 @@ public class PlayerCharacterAnimator : MonoBehaviour
 
 	private void Update()
 	{
+		float v = pcc.isInputEnabled ? Input.GetAxisRaw("Vertical") : 0;
+		float h = pcc.isInputEnabled ? Input.GetAxisRaw("Horizontal") : 0;
 		switch (state)
 		{
 			default:
 			case State.Idle:
 				{
-					if (!(0 == Input.GetAxisRaw("Vertical")
-						&& 0 == Input.GetAxisRaw("Horizontal")))
+					if (!(0 == v && 0 == h))
 					{
 						state = State.Walking;
 						anim.SetTrigger("Walking");
-						UpdateSpeed();
+						UpdateSpeed(v, h);
 					}
 				} break;
 			case State.Walking:
 				{
-					UpdateSpeed();
+					UpdateSpeed(v, h);
 
-					if (0 == Input.GetAxisRaw("Vertical")
-						&& 0 == Input.GetAxisRaw("Horizontal"))
+					if (0 == v && 0 == h)
 					{
 						state = State.Idle;
 						anim.SetTrigger("Idle");

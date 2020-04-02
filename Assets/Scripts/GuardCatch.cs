@@ -12,13 +12,27 @@ public class GuardCatch : MonoBehaviour
 	{
 		/// <author>Elijah Shadbolt</author>
 		/// 
-		var player = FindObjectOfType<playerController>();
+		var player = FindObjectOfType<PlayerCharacterController>();
 		if (player)
 		{
 			var d = Vector3.Distance(player.transform.position, transform.position);
 			if (d < radius)
 			{
 				player.isInputEnabled = false;
+
+				var pg = GetComponent<PatrolGuard>();
+				{
+					if (pg)
+					{
+						pg.enabled = false;
+					}
+
+					if (pg.nurse)
+					{
+						pg.nurse.Grab();
+						//pg.nurse.isWalking = false;
+					}
+				}
 
 				var agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
 				if (agent)

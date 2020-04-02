@@ -35,6 +35,8 @@ public class PlayerCharacterController : MonoBehaviour
 	public float currentAngularSpeed { get; private set; } = 0;
 	public float currentSpeed { get; private set; } = 0;
 
+	public bool isInputEnabled = true;
+
 	/// <author>Lorenzo Zemp</summary>
 	private AudioSource audioSource;
 
@@ -49,8 +51,8 @@ public class PlayerCharacterController : MonoBehaviour
 		/// <author>Elijah Shadbolt</author>
 		var dt = Time.fixedDeltaTime;
 		var gravity = Physics.gravity;
-		float horizontalAmount = Input.GetAxis("Horizontal");
-		float verticalAmount = Input.GetAxis("Vertical");
+		float horizontalAmount = isInputEnabled ? Input.GetAxis("Horizontal") : 0;
+		float verticalAmount = isInputEnabled ? Input.GetAxis("Vertical") : 0;
 		float small = 0.001f;
 
 		// angular motion

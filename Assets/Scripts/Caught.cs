@@ -9,6 +9,7 @@ using UnityEngine.SceneManagement;
 public class Caught : MonoBehaviour
 {
 	public GameObject visuals;
+	public GameObject fadeout;
 	public bool hasTriggered { get; private set; } = false;
 
 	private void Awake()
@@ -27,6 +28,7 @@ public class Caught : MonoBehaviour
 	private IEnumerator RestartCo()
 	{
 		yield return new WaitForSeconds(3);
-		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+		fadeout.GetComponent<SceneLoader>().buildIndex = SceneManager.GetActiveScene().buildIndex;
+		fadeout.SetActive(true);
 	}
 }
