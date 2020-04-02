@@ -10,7 +10,7 @@ public class PlayerCharacterAnimator : MonoBehaviour
 	private State state;
 
 	private Animator m_anim;
-	public Animator anim { get { if (!m_anim) m_anim = FindObjectOfType<Animator>(); return m_anim; } }
+	public Animator anim { get { if (!m_anim) m_anim = GetComponent<Animator>(); return m_anim; } }
 
 	[SerializeField]
 	private PlayerCharacterController m_pcc;
