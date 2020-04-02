@@ -1,0 +1,1452 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &35589174052520249
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1099726828530182376}
+  m_Layer: 0
+  m_Name: NurseBonesLDigit23
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1099726828530182376
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 35589174052520249}
+  m_LocalRotation: {x: -0.000000026738405, y: 0.00000046868317, z: 0.07279559, w: 0.9973469}
+  m_LocalPosition: {x: -0.03366369, y: -0.000000024223327, z: 0}
+  m_LocalScale: {x: 1.000001, y: 0.99999684, z: 1.0000029}
+  m_Children: []
+  m_Father: {fileID: 9078177560079021283}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &300946229706247921
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8722834327557777593}
+  m_Layer: 0
+  m_Name: NurseBonesRDigit23
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8722834327557777593
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 300946229706247921}
+  m_LocalRotation: {x: 0.000000052664383, y: -0.00000041449874, z: 0.07279395, w: 0.997347}
+  m_LocalPosition: {x: -0.033663593, y: -0.000000024223327, z: -0.000000048446655}
+  m_LocalScale: {x: 0.9999995, y: 1.0000036, z: 0.9999975}
+  m_Children: []
+  m_Father: {fileID: 3396517032892089826}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &760294091376546326
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1895714024513601905}
+  m_Layer: 0
+  m_Name: NurseBonesLDigit11
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1895714024513601905
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 760294091376546326}
+  m_LocalRotation: {x: -0.00001927447, y: 0.00017133984, z: -0.11186377, w: 0.9937236}
+  m_LocalPosition: {x: -0.15620795, y: -0.000000006055832, z: 3.784895e-10}
+  m_LocalScale: {x: 1.0000005, y: 0.9999997, z: 1.0000001}
+  m_Children: []
+  m_Father: {fileID: 737367102028043804}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &857453979796610484
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5422629582282634092}
+  m_Layer: 0
+  m_Name: NurseBonesTail2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5422629582282634092
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 857453979796610484}
+  m_LocalRotation: {x: 0.08349914, y: 0.01494095, z: 0.17518213, w: 0.9808751}
+  m_LocalPosition: {x: -0.16448705, y: 0.000000048446655, z: 0}
+  m_LocalScale: {x: 1.0000001, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8284131391204434139}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &872278792778430219
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7464234420855410346}
+  m_Layer: 0
+  m_Name: NurseBonesLPalm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7464234420855410346
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 872278792778430219}
+  m_LocalRotation: {x: -0.8033319, y: -0.015477508, z: 0.025806336, w: 0.5947708}
+  m_LocalPosition: {x: -0.25353017, y: 0.000000024223327, z: -0.000000024223327}
+  m_LocalScale: {x: 1.0000005, y: 0.9999961, z: 1.0000032}
+  m_Children:
+  - {fileID: 3199804942046392177}
+  - {fileID: 1411559735156007727}
+  m_Father: {fileID: 8059496539833019170}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &980911995056511717
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2544420836753612444}
+  m_Layer: 0
+  m_Name: NurseBonesLUpperarm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2544420836753612444
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 980911995056511717}
+  m_LocalRotation: {x: 0.31405857, y: 0.6208648, z: -0.1557991, w: 0.70115674}
+  m_LocalPosition: {x: -0.15980399, y: 0, z: 0}
+  m_LocalScale: {x: 1.0000002, y: 1.0000008, z: 1.0000007}
+  m_Children:
+  - {fileID: 8059496539833019170}
+  m_Father: {fileID: 4088239321078463694}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1066908544509344609
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2371381211635382063}
+  m_Layer: 0
+  m_Name: NurseBonesRDigit13
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2371381211635382063
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1066908544509344609}
+  m_LocalRotation: {x: -0.00000025663056, y: 0.00000014705999, z: 0.19251888, w: 0.98129326}
+  m_LocalPosition: {x: -0.04920659, y: 0, z: 0}
+  m_LocalScale: {x: 0.99999946, y: 0.9999973, z: 1.0000032}
+  m_Children: []
+  m_Father: {fileID: 1981288278428125430}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1075610819138663205
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7173627671131843542}
+  m_Layer: 0
+  m_Name: NurseBonesRDigit21
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7173627671131843542
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1075610819138663205}
+  m_LocalRotation: {x: -0.00000005587917, y: -0.000000044703494, z: -0.00000005494805,
+    w: 1}
+  m_LocalPosition: {x: -0.096067876, y: 0, z: 0}
+  m_LocalScale: {x: 0.9999997, y: 1.0000033, z: 0.99999756}
+  m_Children:
+  - {fileID: 3396517032892089826}
+  m_Father: {fileID: 5781886281132542465}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1089587837530240360
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6255414193428452436}
+  m_Layer: 0
+  m_Name: NurseBonesRThigh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6255414193428452436
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1089587837530240360}
+  m_LocalRotation: {x: 0.03425323, y: 0.9988621, z: -0.00010210495, w: 0.033186395}
+  m_LocalPosition: {x: -0.017969737, y: 0.048999563, z: -0.09181358}
+  m_LocalScale: {x: 0.99999964, y: 1.0000007, z: 1.0000001}
+  m_Children:
+  - {fileID: 6467615876779339969}
+  m_Father: {fileID: 3648577484574230648}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1225953460611013015
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1941116516992204521}
+  m_Layer: 0
+  m_Name: NurseBonesRFoot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1941116516992204521
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1225953460611013015}
+  m_LocalRotation: {x: 0.041532136, y: 0.05783979, z: -0.84354734, w: 0.53231335}
+  m_LocalPosition: {x: -0.45416418, y: -0.000000012111664, z: 0.000000012111664}
+  m_LocalScale: {x: 0.9999968, y: 1.0000029, z: 0.9999998}
+  m_Children:
+  - {fileID: 4206898378364059448}
+  m_Father: {fileID: 6467615876779339969}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1279291227860785863
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7132600759341225829}
+  m_Layer: 0
+  m_Name: NurseBonesSpine1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7132600759341225829
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1279291227860785863}
+  m_LocalRotation: {x: 0.0029588991, y: 0.00040783064, z: -0.13385424, w: 0.99099654}
+  m_LocalPosition: {x: -0.047705226, y: -0.0036499589, z: -0.000000012111664}
+  m_LocalScale: {x: 1.0000005, y: 1.0000005, z: 0.99999994}
+  m_Children:
+  - {fileID: 8599515961679015774}
+  m_Father: {fileID: 3648577484574230648}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1487745915602669689
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4921624476532763880}
+  m_Layer: 0
+  m_Name: NurseBonesLCalf
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4921624476532763880
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1487745915602669689}
+  m_LocalRotation: {x: 0.00006670557, y: 0.00746909, z: 0.32178953, w: 0.94678175}
+  m_LocalPosition: {x: -0.47385693, y: -0.0000007751465, z: -0.000000040876866}
+  m_LocalScale: {x: 1.0000038, y: 0.9999968, z: 0.9999997}
+  m_Children:
+  - {fileID: 737367102028043804}
+  m_Father: {fileID: 5272542813212135250}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1552713246694913169
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7093673462419810924}
+  m_Layer: 0
+  m_Name: NurseBonesRUpperarm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7093673462419810924
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1552713246694913169}
+  m_LocalRotation: {x: -0.23447339, y: -0.6359587, z: -0.25116548, w: 0.69101}
+  m_LocalPosition: {x: -0.15980396, y: -0.000000024223327, z: 0}
+  m_LocalScale: {x: 1.0000018, y: 1.0000019, z: 1}
+  m_Children:
+  - {fileID: 8047638556400714799}
+  m_Father: {fileID: 805016994256517881}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2056377278500939036
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3607881233751330481}
+  m_Layer: 0
+  m_Name: NurseBonesSpine3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3607881233751330481
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2056377278500939036}
+  m_LocalRotation: {x: 0.022378184, y: -0.0025955846, z: 0.0742151, w: 0.99698776}
+  m_LocalPosition: {x: -0.123183854, y: -0.000000024223327, z: 0.000000003027916}
+  m_LocalScale: {x: 1.0000002, y: 1.0000002, z: 0.9999999}
+  m_Children:
+  - {fileID: 5789100668710160126}
+  m_Father: {fileID: 8599515961679015774}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2298116390100633769
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1411559735156007727}
+  m_Layer: 0
+  m_Name: NurseBonesLDigit21
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1411559735156007727
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2298116390100633769}
+  m_LocalRotation: {x: 0.000000029802415, y: -0.000000059604616, z: 0.000000048428753,
+    w: 1}
+  m_LocalPosition: {x: -0.09606792, y: -0.000000024223327, z: -0.000000024223327}
+  m_LocalScale: {x: 1.0000005, y: 0.99999696, z: 1.0000029}
+  m_Children:
+  - {fileID: 9078177560079021283}
+  m_Father: {fileID: 7464234420855410346}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2358878201710407137
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3396517032892089826}
+  m_Layer: 0
+  m_Name: NurseBonesRDigit22
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3396517032892089826
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2358878201710407137}
+  m_LocalRotation: {x: 0.00000071111646, y: -0.0000010855987, z: 0.20226869, w: 0.97933006}
+  m_LocalPosition: {x: -0.031554855, y: 0.000000024223327, z: -0.000000048446655}
+  m_LocalScale: {x: 0.99999833, y: 1.0000044, z: 0.9999974}
+  m_Children:
+  - {fileID: 8722834327557777593}
+  m_Father: {fileID: 7173627671131843542}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2409306679135086511
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1672183944906560956}
+  - component: {fileID: 7854805997011109162}
+  m_Layer: 0
+  m_Name: Nurse_Walk
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1672183944906560956
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2409306679135086511}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -50.544247, y: 0.070687905, z: -7.42793}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 7636927936017694499}
+  - {fileID: 3648577484574230648}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &7854805997011109162
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2409306679135086511}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 43cfe92597cf7084aa505edda1e291ec, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1 &2770714988035594238
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6467615876779339969}
+  m_Layer: 0
+  m_Name: NurseBonesRCalf
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6467615876779339969
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2770714988035594238}
+  m_LocalRotation: {x: -0.000043213688, y: -0.008057693, z: 0.2952488, w: 0.95538646}
+  m_LocalPosition: {x: -0.47385707, y: -0.00000081148147, z: 0.000000024223327}
+  m_LocalScale: {x: 0.9999983, y: 1.0000017, z: 1.0000002}
+  m_Children:
+  - {fileID: 1941116516992204521}
+  m_Father: {fileID: 6255414193428452436}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2990617093514188447
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3967076994967940088}
+  m_Layer: 0
+  m_Name: NurseBonesRibcage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3967076994967940088
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2990617093514188447}
+  m_LocalRotation: {x: 0.0044012596, y: -0.0055969935, z: -0.048389874, w: 0.99880314}
+  m_LocalPosition: {x: -0.17838193, y: 0.000000012111664, z: 0.000000006055832}
+  m_LocalScale: {x: 0.9999993, y: 0.9999992, z: 1.0000004}
+  m_Children:
+  - {fileID: 4088239321078463694}
+  - {fileID: 8182480960625012194}
+  - {fileID: 805016994256517881}
+  m_Father: {fileID: 5789100668710160126}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3020966437054565228
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8182480960625012194}
+  m_Layer: 0
+  m_Name: NurseBonesNeck1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8182480960625012194
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3020966437054565228}
+  m_LocalRotation: {x: -0.0060264627, y: -0.0004136959, z: 0.004431114, w: 0.999972}
+  m_LocalPosition: {x: -0.00082882534, y: -0.0036499468, z: -0.000000009083748}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+  m_Children:
+  - {fileID: 1867981149565957210}
+  m_Father: {fileID: 3967076994967940088}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3233965998133312272
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8047638556400714799}
+  m_Layer: 0
+  m_Name: NurseBonesRForearm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8047638556400714799
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3233965998133312272}
+  m_LocalRotation: {x: -0.062279165, y: -0.06798707, z: -0.2804964, w: 0.95541656}
+  m_LocalPosition: {x: -0.29488957, y: -0.000000012111664, z: 0}
+  m_LocalScale: {x: 0.9999989, y: 0.99999887, z: 1.0000002}
+  m_Children:
+  - {fileID: 5781886281132542465}
+  m_Father: {fileID: 7093673462419810924}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3889873458157427932
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5389377688083444369}
+  m_Layer: 0
+  m_Name: NurseBonesTail2 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5389377688083444369
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3889873458157427932}
+  m_LocalRotation: {x: 7.9257545e-11, y: -0.000000028881383, z: 0.018821793, w: 0.99982285}
+  m_LocalPosition: {x: -0.19129603, y: 0, z: 0}
+  m_LocalScale: {x: 0.99999994, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3499392162506259118}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4764342692126814989
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1981288278428125430}
+  m_Layer: 0
+  m_Name: NurseBonesRDigit12
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1981288278428125430
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4764342692126814989}
+  m_LocalRotation: {x: 0.00000030004747, y: -0.0000010123534, z: 0.13188417, w: 0.9912652}
+  m_LocalPosition: {x: -0.039353967, y: 0.00000009689331, z: 0}
+  m_LocalScale: {x: 0.9999992, y: 0.9999973, z: 1.0000032}
+  m_Children:
+  - {fileID: 2371381211635382063}
+  m_Father: {fileID: 8679439688462712441}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4905363463907250209
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 737367102028043804}
+  m_Layer: 0
+  m_Name: NurseBonesLFoot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &737367102028043804
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4905363463907250209}
+  m_LocalRotation: {x: 0.038353898, y: -0.04475948, z: -0.79285544, w: 0.6065524}
+  m_LocalPosition: {x: -0.45416424, y: 0, z: -0.000000003027916}
+  m_LocalScale: {x: 1.0000063, y: 0.99999386, z: 1}
+  m_Children:
+  - {fileID: 1895714024513601905}
+  m_Father: {fileID: 4921624476532763880}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5262143596714149665
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3199804942046392177}
+  m_Layer: 0
+  m_Name: NurseBonesLDigit11 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3199804942046392177
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5262143596714149665}
+  m_LocalRotation: {x: 0.6114482, y: 0.25145334, z: -0.11794764, w: 0.740939}
+  m_LocalPosition: {x: -0.027205994, y: -0.017349135, z: 0.0131091075}
+  m_LocalScale: {x: 0.9999997, y: 0.9999975, z: 1.000003}
+  m_Children:
+  - {fileID: 7002874353595406849}
+  m_Father: {fileID: 7464234420855410346}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5297433585942901326
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3499392162506259118}
+  m_Layer: 0
+  m_Name: NurseBonesTail1 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3499392162506259118
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5297433585942901326}
+  m_LocalRotation: {x: 5.2518052e-11, y: -2.071223e-11, z: 0.9993299, w: 0.036601897}
+  m_LocalPosition: {x: -0.00034542466, y: -0.09902583, z: 0.00000001513958}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 5389377688083444369}
+  m_Father: {fileID: 3648577484574230648}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5567341037034263744
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5789100668710160126}
+  m_Layer: 0
+  m_Name: NurseBonesSpine4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5789100668710160126
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5567341037034263744}
+  m_LocalRotation: {x: 0.021892514, y: -0.0049774726, z: -0.11246839, w: 0.99340165}
+  m_LocalPosition: {x: -0.1323767, y: -0.000000048446655, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 0.9999999}
+  m_Children:
+  - {fileID: 3967076994967940088}
+  m_Father: {fileID: 3607881233751330481}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5750560892279928460
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3648577484574230648}
+  m_Layer: 0
+  m_Name: NurseBonesPelvis
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3648577484574230648
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5750560892279928460}
+  m_LocalRotation: {x: 0.49912265, y: -0.50086725, z: -0.4991312, w: 0.5008759}
+  m_LocalPosition: {x: 0.04016681, y: 0.8705888, z: 0.1829129}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+  m_Children:
+  - {fileID: 5272542813212135250}
+  - {fileID: 6255414193428452436}
+  - {fileID: 7132600759341225829}
+  - {fileID: 8284131391204434139}
+  - {fileID: 3499392162506259118}
+  m_Father: {fileID: 1672183944906560956}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5788663242405691777
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8059496539833019170}
+  m_Layer: 0
+  m_Name: NurseBonesLForearm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8059496539833019170
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5788663242405691777}
+  m_LocalRotation: {x: 0.071894675, y: -0.027024405, z: -0.20324449, w: 0.97611094}
+  m_LocalPosition: {x: -0.29488957, y: 0.000000012111664, z: 0}
+  m_LocalScale: {x: 0.99999934, y: 0.9999995, z: 1.0000002}
+  m_Children:
+  - {fileID: 7464234420855410346}
+  m_Father: {fileID: 2544420836753612444}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5918451202282899943
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8284131391204434139}
+  m_Layer: 0
+  m_Name: NurseBonesTail1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8284131391204434139
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5918451202282899943}
+  m_LocalRotation: {x: -0.015792692, y: 0.083499365, z: 0.9790256, w: -0.18516846}
+  m_LocalPosition: {x: 0.0005976379, y: 0.17126529, z: -0.000000027251243}
+  m_LocalScale: {x: 0.99999994, y: 1.0000001, z: 1}
+  m_Children:
+  - {fileID: 5422629582282634092}
+  m_Father: {fileID: 3648577484574230648}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6119727945047580994
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8679439688462712441}
+  m_Layer: 0
+  m_Name: NurseBonesRDigit11 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8679439688462712441
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6119727945047580994}
+  m_LocalRotation: {x: -0.61144775, y: -0.25145376, z: -0.11794877, w: 0.7409391}
+  m_LocalPosition: {x: -0.027206043, y: -0.017348953, z: -0.013109374}
+  m_LocalScale: {x: 0.9999998, y: 1.000003, z: 0.99999774}
+  m_Children:
+  - {fileID: 1981288278428125430}
+  m_Father: {fileID: 5781886281132542465}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6514510158478448798
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7002874353595406849}
+  m_Layer: 0
+  m_Name: NurseBonesLDigit12
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7002874353595406849
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6514510158478448798}
+  m_LocalRotation: {x: -0.00000035879012, y: 0.0000009030673, z: 0.1318847, w: 0.99126506}
+  m_LocalPosition: {x: -0.039353993, y: 0.000000048446655, z: 0}
+  m_LocalScale: {x: 1.0000005, y: 1.0000024, z: 0.99999684}
+  m_Children:
+  - {fileID: 8888676838875184124}
+  m_Father: {fileID: 3199804942046392177}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6718079257590200292
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7636927936017694499}
+  - component: {fileID: 4508984046993567955}
+  m_Layer: 0
+  m_Name: Nurse_Mesh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7636927936017694499
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6718079257590200292}
+  m_LocalRotation: {x: 0.000000021855696, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 0.39370102, y: 0.39370102, z: 0.39370102}
+  m_Children: []
+  m_Father: {fileID: 1672183944906560956}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &4508984046993567955
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6718079257590200292}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: d84cb7d0d2a21fb418e26b3a048d2700, type: 2}
+  - {fileID: 2100000, guid: 6947e3b5190cb184dba843161ef2b2c3, type: 2}
+  - {fileID: 2100000, guid: a75e04912766a50458ec9e376e318300, type: 2}
+  - {fileID: 2100000, guid: 9ed73369046cd614fa9a860f1a03b44e, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: -2245582591510424618, guid: d70023f553c93014a84ff11968ebd8c0, type: 3}
+  m_Bones:
+  - {fileID: 5272542813212135250}
+  - {fileID: 4921624476532763880}
+  - {fileID: 6255414193428452436}
+  - {fileID: 6467615876779339969}
+  - {fileID: 3648577484574230648}
+  - {fileID: 5422629582282634092}
+  - {fileID: 3499392162506259118}
+  - {fileID: 8284131391204434139}
+  - {fileID: 7132600759341225829}
+  - {fileID: 1941116516992204521}
+  - {fileID: 4206898378364059448}
+  - {fileID: 737367102028043804}
+  - {fileID: 1895714024513601905}
+  - {fileID: 3967076994967940088}
+  - {fileID: 6744012327053689613}
+  - {fileID: 7093673462419810924}
+  - {fileID: 805016994256517881}
+  - {fileID: 5781886281132542465}
+  - {fileID: 7173627671131843542}
+  - {fileID: 8047638556400714799}
+  - {fileID: 3396517032892089826}
+  - {fileID: 8722834327557777593}
+  - {fileID: 1981288278428125430}
+  - {fileID: 2371381211635382063}
+  - {fileID: 8679439688462712441}
+  - {fileID: 3607881233751330481}
+  - {fileID: 8599515961679015774}
+  - {fileID: 4088239321078463694}
+  - {fileID: 5789100668710160126}
+  - {fileID: 8182480960625012194}
+  - {fileID: 1867981149565957210}
+  - {fileID: 2544420836753612444}
+  - {fileID: 7464234420855410346}
+  - {fileID: 1411559735156007727}
+  - {fileID: 9078177560079021283}
+  - {fileID: 1099726828530182376}
+  - {fileID: 7002874353595406849}
+  - {fileID: 8888676838875184124}
+  - {fileID: 8059496539833019170}
+  - {fileID: 3199804942046392177}
+  - {fileID: 5389377688083444369}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 3648577484574230648}
+  m_AABB:
+    m_Center: {x: -0.009151787, y: 0.06850587, z: 0.004271865}
+    m_Extent: {x: 0.9811162, y: 0.5101542, z: 0.42265773}
+  m_DirtyAABB: 0
+--- !u!1 &6729173530109330241
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8599515961679015774}
+  m_Layer: 0
+  m_Name: NurseBonesSpine2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8599515961679015774
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6729173530109330241}
+  m_LocalRotation: {x: 0.017035548, y: 0.0023845076, z: 0.17295699, w: 0.9847792}
+  m_LocalPosition: {x: -0.14460474, y: 0.000000012111664, z: -0.000000006055832}
+  m_LocalScale: {x: 1.0000001, y: 1.0000002, z: 1}
+  m_Children:
+  - {fileID: 3607881233751330481}
+  m_Father: {fileID: 7132600759341225829}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6940421975459189820
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5272542813212135250}
+  m_Layer: 0
+  m_Name: NurseBonesLThigh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5272542813212135250
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6940421975459189820}
+  m_LocalRotation: {x: -0.31691495, y: 0.9482124, z: 0.003988575, w: -0.021029925}
+  m_LocalPosition: {x: -0.017969737, y: 0.04899959, z: 0.09181357}
+  m_LocalScale: {x: 0.9999997, y: 1.0000008, z: 1.0000001}
+  m_Children:
+  - {fileID: 4921624476532763880}
+  m_Father: {fileID: 3648577484574230648}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7306826692309779966
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4206898378364059448}
+  m_Layer: 0
+  m_Name: NurseBonesRDigit11
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4206898378364059448
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7306826692309779966}
+  m_LocalRotation: {x: 0.000008349646, y: -0.00007519462, z: -0.11219195, w: 0.99368656}
+  m_LocalPosition: {x: -0.1562079, y: 0, z: 0.000000006055832}
+  m_LocalScale: {x: 0.9999997, y: 1.0000001, z: 0.9999999}
+  m_Children: []
+  m_Father: {fileID: 1941116516992204521}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7403132942955456949
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8888676838875184124}
+  m_Layer: 0
+  m_Name: NurseBonesLDigit13
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8888676838875184124
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7403132942955456949}
+  m_LocalRotation: {x: 0.00000022016252, y: -0.00000019217755, z: 0.19251879, w: 0.9812933}
+  m_LocalPosition: {x: -0.04920659, y: 0.000000048446655, z: 0.000000012111664}
+  m_LocalScale: {x: 1.0000002, y: 1.0000031, z: 0.999997}
+  m_Children: []
+  m_Father: {fileID: 7002874353595406849}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7503165659333890749
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 805016994256517881}
+  m_Layer: 0
+  m_Name: NurseBonesRCollarbone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &805016994256517881
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7503165659333890749}
+  m_LocalRotation: {x: -0.16343348, y: -0.65836346, z: 0.26576295, w: 0.6849943}
+  m_LocalPosition: {x: 0.018117499, y: 0.10594583, z: -0.031431723}
+  m_LocalScale: {x: 1.0000007, y: 1.0000001, z: 1}
+  m_Children:
+  - {fileID: 7093673462419810924}
+  m_Father: {fileID: 3967076994967940088}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8153279236471769643
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6744012327053689613}
+  m_Layer: 0
+  m_Name: NurseBonesHead
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6744012327053689613
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8153279236471769643}
+  m_LocalRotation: {x: -0.0060126497, y: 0.00006551259, z: 0.004521331, w: 0.9999717}
+  m_LocalPosition: {x: -0.07271484, y: 0.000000012111664, z: -0.000000006055832}
+  m_LocalScale: {x: 1.0000001, y: 1.0000001, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1867981149565957210}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8216217870128556530
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4088239321078463694}
+  m_Layer: 0
+  m_Name: NurseBonesLCollarbone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4088239321078463694
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8216217870128556530}
+  m_LocalRotation: {x: 0.16343318, y: 0.65836364, z: 0.2657626, w: 0.6849943}
+  m_LocalPosition: {x: 0.018117983, y: 0.105945714, z: 0.031431697}
+  m_LocalScale: {x: 0.99999994, y: 1.0000004, z: 1.0000006}
+  m_Children:
+  - {fileID: 2544420836753612444}
+  m_Father: {fileID: 3967076994967940088}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8333711909322510622
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1867981149565957210}
+  m_Layer: 0
+  m_Name: NurseBonesNeck2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1867981149565957210
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8333711909322510622}
+  m_LocalRotation: {x: -0.026481112, y: -0.00075719605, z: 0.019638399, w: 0.9994561}
+  m_LocalPosition: {x: -0.07271484, y: -0.000000012111664, z: 0}
+  m_LocalScale: {x: 0.9999998, y: 1, z: 1}
+  m_Children:
+  - {fileID: 6744012327053689613}
+  m_Father: {fileID: 8182480960625012194}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8885608895668131157
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5781886281132542465}
+  m_Layer: 0
+  m_Name: NurseBonesRPalm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5781886281132542465
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8885608895668131157}
+  m_LocalRotation: {x: 0.79619485, y: 0.08262129, z: 0.03714565, w: 0.59822047}
+  m_LocalPosition: {x: -0.2535302, y: 0, z: 0}
+  m_LocalScale: {x: 0.99999917, y: 1.0000038, z: 0.99999774}
+  m_Children:
+  - {fileID: 8679439688462712441}
+  - {fileID: 7173627671131843542}
+  m_Father: {fileID: 8047638556400714799}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &9079972249656971472
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9078177560079021283}
+  m_Layer: 0
+  m_Name: NurseBonesLDigit22
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9078177560079021283
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9079972249656971472}
+  m_LocalRotation: {x: -0.00000068074655, y: 0.00000107665, z: 0.2022717, w: 0.97932947}
+  m_LocalPosition: {x: -0.031554855, y: -0.000000024223327, z: 0}
+  m_LocalScale: {x: 1.0000018, y: 0.99999595, z: 1.000003}
+  m_Children:
+  - {fileID: 1099726828530182376}
+  m_Father: {fileID: 1411559735156007727}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
