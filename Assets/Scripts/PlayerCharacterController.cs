@@ -103,10 +103,10 @@ public class PlayerCharacterController : MonoBehaviour
 		transform.Rotate(localAngularMotion, Space.Self);
 
 		/// <author>Lorenzo Zemp</author>
-		if (isTouchingGround && audioSource.isPlaying == false && cc.velocity.magnitude > 1.0f)
+		if (isTouchingGround && audioSource.isPlaying == false && cc.velocity.magnitude > 0.5f)
 		{
-			audioSource.volume = Random.Range(0.1f, 0.3f);
-			audioSource.pitch = Random.Range(0.7f, 0.9f);
+			audioSource.volume = Random.Range(0.09f, 0.2f);
+			audioSource.pitch = Random.Range(0.8f, 1.0f);
 			audioSource.Play();
 		}
 	}
