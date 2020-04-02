@@ -952,6 +952,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: 899cd6292cb22ba46a3d55c2aef38a1d, type: 2}
+    - target: {fileID: -6525269617331150008, guid: ad7ec09856f050f49874dc55cb475eb7,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d84cb7d0d2a21fb418e26b3a048d2700, type: 2}
     - target: {fileID: -6258496779781575513, guid: ad7ec09856f050f49874dc55cb475eb7,
         type: 3}
       propertyPath: m_IsActive
@@ -1042,6 +1047,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2116745397237368962, guid: ad7ec09856f050f49874dc55cb475eb7,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -1313316682223322445, guid: ad7ec09856f050f49874dc55cb475eb7,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -1051,6 +1061,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: WinningAnimation
+      objectReference: {fileID: 0}
+    - target: {fileID: 6356961198339107097, guid: ad7ec09856f050f49874dc55cb475eb7,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad7ec09856f050f49874dc55cb475eb7, type: 3}
