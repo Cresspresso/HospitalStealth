@@ -6,9 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Insomnia.unity
-    guid: 96abc23e849916d499b5e3d14248a3fc
+    path: Assets/Scenes/Angelika_Menu.unity
+    guid: 44b3442bd0f5e2f429c536eabe77a996
   - enabled: 1
-    path: Assets/Scenes/Jordyn.unity
-    guid: 912ef64e1f18f5e4d829d216f304188b
+    path: Assets/Scenes/Angelika_LevelDesignTrial 2.unity
+    guid: 7a291bef407bf11469e8382045a5d765
+  - enabled: 1
+    path: Assets/Scenes/Angelika_Win.unity
+    guid: 795e9b57787e46d4c8a2daad5a5695ea
   m_configObjects: {}
